@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass scss -o css",
-    "scss:watch": "npm run scss && node-sass scss -w -o css",
+    "scss": "node-sass scss -o designs/css",  
+    "scss:watch": "npm run scss && node-sass scss -w -o designs/css",
     "start": "npm run scss:watch"
   },
   "repository": {
