@@ -11,20 +11,20 @@ li {
 a {
   text-decoration: none; }
 
-@media (min-width: 700px) {
+@media (min-width: 900px) {
   main {
     max-width: 1100px;
     margin: auto;
     padding-inline-start: 0;
-    padding-inline-end: 0; }
+    padding-inline-end: 0;
+    text-align: start; }
   section {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    text-align: start; }
+    justify-content: space-between;
+    align-items: center; }
   section div {
-    max-width: 500px;
-    margin: auto; } }
+    max-width: 500px; } }
 
 header {
   text-align: center;
@@ -55,7 +55,7 @@ header > nav ul li:last-child {
 header > ul > a {
   color: #666666; }
 
-@media (min-width: 700px) {
+@media (min-width: 900px) {
   header {
     display: flex;
     flex-direction: row;
